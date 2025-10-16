@@ -56,6 +56,15 @@ const projects = [
     liveUrl: "https://tecnotrust.netlify.app/",
     githubUrl: "#",
   },
+  {
+    id: 6,
+    title: "Construction Landing",
+    description: "Landing Page to promote new buildings.",
+    image: "/construction.png",
+    tags: ["Next.js", "Tailwind"],
+    liveUrl: "https://construction-landing-demo.netlify.app/",
+    githubUrl: "#",
+  },
 ]
 
 export function ProjectsSection({ translations }: ProjectsSectionProps) {
